@@ -1,0 +1,64 @@
+/* main.css */
+body {
+    font-family: 'Sans-serif';
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 650px;
+    background-color: #256ce7;
+    text-align: center;
+    flex-direction: column;
+}
+
+#main {
+    margin-bottom: 10px;
+}
+
+#container {
+    border: 2px solid #dc1414;
+    border-radius: 10px;
+    background: #fff700;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#taskInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#addButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #00aeff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #1cda36;
+    border-radius: 5px;
+}
+
+
+button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}

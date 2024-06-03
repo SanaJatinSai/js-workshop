@@ -71,8 +71,6 @@ function addTask() {
     deletebutton.addEventListener('click', function() {
         taskList.removeChild(listItem);
     });
-
-
         
     } else{
         alert ("Enter Something...");
